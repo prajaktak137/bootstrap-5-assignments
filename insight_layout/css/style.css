@@ -1,0 +1,90 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    font-family: 'lato';
+}
+a {text-decoration: none;}
+.card_footer {
+    display: flex;
+    padding-top: 1rem;
+}
+.card_footer img {
+    width:50px;
+    height:53px;
+    margin-right: 1rem;
+}
+.authors img{
+    width:90px;
+    height: 70px;
+    margin-right: 1rem;
+}
+.copyright{
+    flex-direction: column;
+    margin-top: 5rem;
+}
+
+.banner{
+    background-image: url('../images/banner-img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   
+  }
+
+
+  /*------------------------------------- Media Query Start----------------------------------  */
+
+  
+  @media (min-width: 320px) and (max-width: 575.98px) {
+    .text {
+        padding-right: 0!important;
+        padding-left: 0!important;
+        margin: 0!important;
+    }
+    .text-end {
+        margin-top:1rem;
+        text-align: center!important;
+    }
+    .client_align{
+        padding-top: 1rem!important;
+        padding-bottom: 1rem!important;
+        display:block;
+        text-align: center;
+    }
+    .title, .space{
+        padding-bottom: 1rem;
+    }
+    .link-title, .link-item{
+        display:block;
+        text-align:center;
+    }
+    .social {
+        margin-top:2rem;
+    }
+   .copyright {
+     margin-top: 0rem;
+    }
+    
+  }
+  
+  @media (min-width: 575.98px) and (max-width:767px ) {
+    .text-end {
+        margin-top:1rem;
+        text-align: center!important;
+    }
+    .link-title, .link-item{
+        text-align:center;
+    }
+    .social {
+             margin-top:2rem;
+    }
+    .copyright {
+        margin-top: 0rem;
+    }
+                
+  }
+
+
